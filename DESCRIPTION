@@ -1,0 +1,23 @@
+Package: pivotyrz
+Type: Package
+Title: Pivoting repeated columns leading with X
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Luna", "Zhan",
+      email = "luna.zhan@mail.utoronto.ca",
+      role = c("aut", "cre")
+    )
+  )
+Description: More about what it does (maybe more than one line).
+    Continuation lines should be indented.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Config/roxygen2/version: 8.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    dplyr,
+    tidyr
