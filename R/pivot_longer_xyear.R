@@ -1,10 +1,10 @@
 #' Pivot longer when dataset contains data in wide form, with columns following format of Xyear
 #'
-#' @param dataname dataset to pivot longer to
+#' @param dataname dataset to pivot longer, containing id column and year columns following patterns X2000...
 #' @param varname id name column
-#' @param varname variable name to put the pivoted values to 
+#' @param varname A character string specifying the name of the pivotted values column.
 #'
-#' @returns the pivotted dataset
+#' @returns the long-form dataset, containing id, year, and pivotted values
 #'
 #' @export
 #' @examples

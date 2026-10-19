@@ -7,12 +7,12 @@
 pivot_longer_xyear(dataname, id, varname)
 }
 \arguments{
-\item{dataname}{dataset to pivot longer to}
+\item{dataname}{dataset to pivot longer, containing id column and year columns following patterns X2000...}
 
-\item{varname}{variable name to put the pivoted values to}
+\item{varname}{A character string specifying the name of the pivotted values column.}
 }
 \value{
-the pivotted dataset
+the long-form dataset, containing id, year, and pivotted values
 }
 \description{
 Pivot longer when dataset contains data in wide form, with columns following format of Xyear
